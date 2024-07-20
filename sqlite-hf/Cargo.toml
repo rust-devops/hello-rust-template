@@ -1,0 +1,9 @@
+[package]
+name = "sqlite-hf"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-bert = "0.22.0"
+clap = {version="4.5.9", features=["derive]"}
+sqlite = "0.36.0"
